@@ -1,4 +1,73 @@
-h1 {
-  color: green;
-  text-align:center;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: : border-box;
+}
+/*dando fuente*/
+body {
+  font-family: 'Noto Sans SC',sans-serif;
+}
+/*cabecera*/
+header {
+  width: 100%;
+  height: 50px;
+  background: #5F9EA0;
+  color:#fff;
+}
+/*alineación*/
+.contenedor {
+  width: 98%;
+  margin:auto;
+}
+
+section {
+  width: 100%;
+}
+
+/*uso excl para los displays*/
+ #inicio {
+ visibility: visible;
+}
+
+#pagcifrar {
+ display: none;
+}
+
+#pagdescifrar {
+ display: none;
+}
+
+
+.centrar {
+ text-align: center;
+}
+
+.btn {
+ color: #0099CC;
+ background: transparent;
+ border: 2px solid #0099CC;
+ border-radius: 6px;
+ border: none;
+ color: white;
+padding: 16px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+}
+.btn1 {
+background-color: white;
+color: black;
+border: 2px solid #008CBA;
+}
+.btn1:hover {
+     background-color: #008CBA;
+     color: white;
 }

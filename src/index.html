@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Code-cifrado y descifrado</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id= "root">
-    <h1>¡Bienvenidx a Coder!</h1>
+ <head>
+   <meta charset="utf-8">
+   <title>Coder-cifrado y descifrado</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="fontello.css">
+   <!--Poniendo fuente de google-->
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+ </head>
+ <body>
+   <header>
+     <div class="contenedor">
+       <h1 class="icon-map">Coder</h1>
 </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+</header>
+<main>
+   <section id= "inicio" class="centrar">
+     <h2>BIENVENIDXS A CODER</h2>
+     <h3>¿Listx, para empezar a cifrar y descifrar?</h3>
+<img src="http://webgenio.com/wp-content/uploads/2013/05/grupos-facebook-secretos.jpg">
+<p>Elige lo que deseas hacer</p>
+<!--creando botones direccionales a diferentes divs-->
+<button class="btn btn1" id="paseCe"><span class="icon-lock"></span></button>
+<button class="btn btn1" id="paseDe"><span class="icon-lock-open"></span></button>
+</section>
 
-    <!--<div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<section id="pagcifrar" class="centrar">
+ <h2>CIFREMOS</h2>
+<form>
+  <textarea type="text" id="data1" placeholder="Escribe tu mensaje a cifrar"></textarea>
+  <input type="number" id="key1" placeholder="Ingresa una clave">
+ <button type="button" id="cifrar"><span class="icon-lock"></span></button>
+ <textarea type="text" id="output1" placeholder="Texto cifrado"></textarea>
+</form>
+
+</section>
+
+<section id="pagdescifrar" class="centrar">
+ <h2>DESCIFREMOS</h2>
+ <form>
+   <textarea type="text" name="texto" id="data2" placeholder="Escribe tu mensaje a descifrar"></textarea>
+   <input type="number" id="key2" placeholder="Ingresa la clave">
+   <button type="button" id="descifrar"><span class="icon-lock-open"></span></button>
+   <textarea type="text" id="output2" placeholder="Texto descifrado"></textarea>
+ </form>
+</section>
+   <script src="cipher.js"></script>
+   <script src="index.js"></script>
+ </body>
 </html>
