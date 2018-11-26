@@ -1,17 +1,132 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower');
 
-* {
+*{
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+}
+
+body {
+background: url("fond11.png")no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+background {
+  filter: blur(6px);
+}
+
+
+
+.centrar {
+  text-align: center;
+}
+
+
+.a1 {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 10px;
+  border: 3px solid #fff;
+}
+
+#inicio a:hover {
+  background: rgba(51, 51, 51, 0.5);
+}
+
+
+
+/*.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
   margin: 0;
   padding: 0;
   box-sizing: : border-box;
 }
-/*dando fuente*/
+
 body {
   font-family: 'Noto Sans SC',sans-serif;
   background-image: url(https://images.unsplash.com/photo-1540992131368-0b5303d3ad06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=853f971376f6ebc1c2e6a10ff2536019&auto=format&fit=crop&w=334&q=80);
   background-size: 100vw 100vh;
   background-attachment: fload;
   margin: 0;
+  header {
+    width: 100%;
+    height: 50px;
+    background: #5F9EA0;
+    color:#fff;
+  }
+
+  .contenedor {
+    width: 98%;
+    margin:auto;
+  }
+
+  section {
+    width: 100%;
+  }
+
+#inicio img{
+  width: 100%;
+height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background: #5F9EA0;
+  color:#fff;
+}*/
+/*alineación*/
+/*.contenedor {
+  width: 98%;
+  margin:auto;
+}
+
+section {
+  width: 100%;
+}
+#inicio img{
+  width: 100%;
+height: 100%;
 }
 
 main {
@@ -24,13 +139,17 @@ main {
   border-radius: 7px;
 }
 
-h2, h3 {
+h2{
   color: #fff;
   text-align: center;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
-  font-family: monospace;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3 {
+font-family: 'Indie Flower', cursive;
 }
 
 input, textarea {
@@ -45,27 +164,7 @@ textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
-}
-
-
-
-/*cabecera*/
-header {
-  width: 100%;
-  height: 50px;
-  background: #5F9EA0;
-  color:#fff;
-}
-/*alineación*/
-.contenedor {
-  width: 98%;
-  margin:auto;
-}
-
-section {
-  width: 100%;
-}
-
+}*/
 /*uso excl para los displays*/
  #inicio {
  visibility: visible;
@@ -80,10 +179,8 @@ section {
 }
 
 
-.centrar {
- text-align: center;
-}
-
+/*
+*/
 .btn {
  color: #0099CC;
  background: transparent;

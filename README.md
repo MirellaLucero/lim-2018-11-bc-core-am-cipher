@@ -1,3 +1,18 @@
+#BIENVENIDO A TEAMPHERY
+
+¿Que es Teamphery?
+Teamphery es una aplicación creada para ti y tu team, con el fin de que puedan
+entablar una conversación súper secreta,sabemos que
+la privacidad es algo muy importante para ustedes.
+Por eso aquí podrás cifrar tus mensajes, notas,etc lo que necesiten encriptar para entendimiento exclusivo de ustedes.
+
+¿Como funciona Teamphery?
+Teamphery cifra y descifra los mensajes con un clave la cual ustedes deberan de asignar.
+Con la opción cifrar podrás ocultar los mensajes.
+Y si quieren descifrar solo deberás ingresar el mensaje y la clave.
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -219,7 +234,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
