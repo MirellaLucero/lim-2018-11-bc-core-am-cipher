@@ -2,50 +2,44 @@
 <html>
  <head>
    <meta charset="utf-8">
-   <title>Teamphery-cifrado y descifrado</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Teamphery|cifrado y descifrado</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="fontello.css">
-   <!--Poniendo fuente de google-->
-   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
  </head>
  <body>
-  
-<main>
-   <section id= "inicio" class="centrar">
-       <h2>MENSAJEATE CON TU TEAM</h2>
-       <br>
+   <main>
+   <section id= "inicio" class="contenedor1">
+       <h1>Teamphery</h1>
        <p>¿Aún no sabes quienes somos?¡Conócenos!</p>
-       <br>
       <a href="#" class="a1">LEER MAS</a>
-      <br>
-      <br>
-      <p> Y si ya eres teampherylover,¡Manos a la obra!</p>
+    <p> Y si ya eres teampherylover,¡Manos a la obra!</p>
 <button class="btn btn1" id="paseCe">CIFRADO<span class="icon-lock"></span></button>
 <button class="btn btn1" id="paseDe">DESCIFRADO<span class="icon-lock-open"></span></button>
 </section>
 
-<section id="pagcifrar" class="centrar">
- <h2>CIFREMOS</h2>
+<section id="pagcifrar" class="contenedor2">
 <form>
-  <textarea type="text" id="data1" placeholder="Escribe tu mensaje a cifrar"></textarea>
-  <input type="number" id="key1" placeholder="Ingresa una clave">
+   <h2>CIFREMOS</h2>
+  <textarea type="text" id="data1" name="mensaje" placeholder="Mensaje"></textarea>
+  <input type="number" id="key1" name="clave" placeholder="Clave">
  <button type="button" id="cifrar"><span class="icon-lock"></span></button>
- <textarea type="text" id="output1" placeholder="Texto cifrado"></textarea>
-</form>
+ <textarea type="text" id="output1" name="mensajecifrado" placeholder="Mensaje cifrado"></textarea>
 <button type="button" id="volver1">VOLVER</button>
-
+</form>
 </section>
 
 <section id="pagdescifrar" class="centrar">
- <h2>DESCIFREMOS</h2>
  <form>
+    <h2>DESCIFREMOS</h2>
    <textarea type="text" name="texto" id="data2" placeholder="Escribe tu mensaje a descifrar"></textarea>
    <input type="number" id="key2" placeholder="Ingresa la clave">
    <button type="button" id="descifrar"><span class="icon-lock-open"></span></button>
    <textarea type="text" id="output2" placeholder="Texto descifrado"></textarea>
+<button type="button" id="volver2">VOLVER</button>
  </form>
- <button type="button" id="volver2">VOLVER</button>
 </section>
+</main>
    <script src="cipher.js"></script>
    <script src="index.js"></script>
  </body>

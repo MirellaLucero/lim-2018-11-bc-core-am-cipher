@@ -1,197 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+ body {
+   background-image: url(fondo2.png);
+   background-size: 100vw 100vh;
+   background-attachment: fixed;
+   margin:auto;
+   width: 450px;
 
-*{
-  margin: 20;
-  padding: 20;
-  box-sizing: border-box;
-}
+ }
 
-body {
-background: url("fond11.png")no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-  font-family: 'Noto Sans SC', sans-serif;
-}
-
-background {
-  filter: blur(6px);
-}
-
-
-
-.centrar {
-  text-align: center;
-}
-
-
-.a1 {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px;
-  margin-top: 10px;
-  border: 3px solid #fff;
-}
-
-#inicio a:hover {
-  background: rgba(51, 51, 51, 0.5);
-}
-
-
-
-/*.contenedor {
-  width: 98%;
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* {
-  margin: 0;
-  padding: 0;
-  box-sizing: : border-box;
-}
-
-body {
-  font-family: 'Noto Sans SC',sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1540992131368-0b5303d3ad06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=853f971376f6ebc1c2e6a10ff2536019&auto=format&fit=crop&w=334&q=80);
-  background-size: 100vw 100vh;
-  background-attachment: fload;
-  margin: 0;
-  header {
-    width: 100%;
-    height: 50px;
-    background: #5F9EA0;
-    color:#fff;
-  }
-
-  .contenedor {
-    width: 98%;
-    margin:auto;
-  }
-
-  section {
-    width: 100%;
-  }
-
-#inicio img{
-  width: 100%;
-height: 100%;
-}
-
-header {
-  width: 100%;
-  height: 50px;
-  background: #5F9EA0;
-  color:#fff;
-}*/
-/*alineación*/
-/*.contenedor {
-  width: 98%;
+form {
+  width: 450px;
   margin:auto;
-}
-
-section {
-  width: 100%;
-}
-#inicio img{
-  width: 100%;
-height: 100%;
-}
-
-main {
-  width: 458px;
-  margin: auto;
-  background: rgba(0,0,0,0.3);
-  padding: 10px 20px;
+  background: rgba(0,0,0,0.2);
+  padding:10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 7px;
 }
 
-h2{
+h2 {
   color: #fff;
   text-align: center;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Rock Salt',cursive;
 }
 
-h3 {
-font-family: 'Indie Flower', cursive;
-}
-
-input, textarea {
-  width: 100%;
+input{
   margin-bottom: 20px;
-  padding: :7px;
+  padding: 7px;
   box-sizing: border-box;
-  font-size: 17px;
+  border: none;
 }
+
+ #cifrar, #descifrar {
+   box-sizing: border-box;
+   border: none;
+ }
 
 textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
-}*/
-/*uso excl para los displays*/
+}
+
+#volver1, #volver2 {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+#cifrar, #descifrar, #volver1, #volver2 {
+background: #31384A;
+color: #fff;
+padding: 20px;
+}
+
+#cifrar:hover, #descifrar:hover, #volver1:hover, #volver2:hover {
+  cursor: pointer;
+}
+
+@media (max-width:480px) {
+  form{
+    width: 100%;
+  }
+}
+
+
+
+
  #inicio {
- visibility: visible;
-}
+   visibility: visible;
+ }
 
-#pagcifrar {
- display: none;
-}
+ #pagcifrar {
+   display: none;
+ }
 
-#pagdescifrar {
- display: none;
-}
+ #pagdescifrar {
+   display: none;
+ }
 
-
-/*
-*/
 .btn {
  color: #0099CC;
  background: transparent;
- border: 2px solid #0099CC;
- border-radius: 6px;
+ border: 6px solid #0099CC;
+ border-radius: 10px;
  border: none;
  color: white;
-padding: 16px 32px;
+padding: 20px 36px;
 text-align: center;
+font-family: 'Noto Sans SC',sans-serif;
 display: inline-block;
-font-size: 16px;
+font-size: 20px;
 margin: 4px 2px;
 -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
@@ -202,9 +117,9 @@ text-transform: uppercase;
 .btn1 {
 background-color: white;
 color: black;
-border: 2px solid #008CBA;
+border: 4px solid #69FF58;
 }
 .btn1:hover {
-     background-color: #008CBA;
+     background-color: #69FF58;
      color: white;
 }

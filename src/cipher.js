@@ -38,10 +38,8 @@ continue;
 }
 let currentIndex= alphabet.indexOf(letter);//obteniendo ubicación en el alfabeto de la letra y asignandole el valor a actualvalor
 let newIndex= (currentIndex-clave)%26;//descifrando, restando la clave a la ubicación actual de la letra
-
 if(newIndex>25) {newIndex=newIndex-26;}
-if(newIndex<0) {newIndex=newIndex+26;}
-//para que me devuelva en minúsculas si es que lo ingresan en minúsculas
+if(newIndex<0) {newIndex=newIndex+26;}//para que me devuelva en minúsculas si es que lo ingresan en minúsculas
 if (mensaje[i]===mensaje[i].toLowerCase()) {textDecode+=alphabet[newIndex].toLowerCase();}
 //almacene en la palabra final en la var textDecode
 else textDecode+=alphabet[newIndex];
