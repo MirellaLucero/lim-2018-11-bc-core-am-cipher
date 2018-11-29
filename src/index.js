@@ -43,3 +43,22 @@ btnDescifrar.addEventListener("click", () => {
   const output2=document.getElementById("output2");
  output2.innerHTML= cipher.decode(data2,key2);
 })
+
+
+let btnCopy1 = document.getElementById('copiar1');
+
+btnCopy1.addEventListener('click', () => {
+   var aux = document.getElementById('output1');
+   aux.select();
+   // Copia el texto seleccionado
+   document.execCommand("copy");
+});
+
+let btnCopy2 = document.getElementById('copiar2');
+
+btnCopy2.addEventListener('click', () => {
+   var aux = document.getElementById('output2');
+   aux.select();
+   // Copia el texto seleccionado
+   document.execCommand("copy");
+});

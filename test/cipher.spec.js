@@ -14,8 +14,8 @@ describe('cipher', () => {
       assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33), "HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
 
-    it('debería retornar "Etuhktmhkbt" para "Laboratoria" con offset 45', () => {
-      assert.equal(cipher.encode("Laboratoria",45),"Etuhktmhkbt");
+    it('debería retornar "bcdefghijklmnopqrstuvwxyz1234" para "123456789¡!¿?,.;-_#$%&/()=:><" con offset 30', () => {
+      assert.equal(cipher.encode("123456789¡!¿?,.;-_#$%&/()=:><",30),"bcdefghijklmnopqrstuvwxyz1234");
     });
 
     it('debería retornar "Nurg Satju" para "Hola Mundo" con offset -20',() => {
