@@ -1,10 +1,10 @@
 
 //función
 window.cipher={
-  encode: (data1,key1) => {
-  const mensaje= data1;//almacenando el valor de data en la const mensaje
-  let clave=parseInt(key1);//almacenando el valor de key en clave
- const upperWords = data1.toUpperCase();//conviertiendo en mayúsculas
+  encode: (offset,string) => {
+  const mensaje= string;//almacenando el valor de data en la const mensaje
+  let clave=parseInt(offset);//almacenando el valor de key en clave
+ const upperWords = string.toUpperCase();//conviertiendo en mayúsculas
  const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789¡!¿?,.;-_#$%&/()=:><";//declarando abecedario
  let textEncode="";//almacen del texto encriptado
  for(let i=0; i<upperWords.length; i++){
@@ -24,10 +24,10 @@ return textEncode;
 },
 
 
-decode: (data2,key2) => {
-  const mensaje= data2;//almacenando el valor de data en la const mensaje
-  let clave=parseInt(key2);//almacenando el valor de key en clave
- const upperWords = data2.toUpperCase();//conviertiendo en mayúsculas
+decode: (offset2,string2) => {
+  const mensaje= string2;//almacenando el valor de data en la const mensaje
+  let clave=parseInt(offset2);//almacenando el valor de key en clave
+ const upperWords = string2.toUpperCase();//conviertiendo en mayúsculas
  const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789¡!¿?,.;-_#$%&/()=:><";//declarando abecedario
  let textDecode="";//almacen del texto desencriptado
  for(let i=0; i<upperWords.length; i++){
