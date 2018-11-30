@@ -1,7 +1,5 @@
 # BIENVENIDX A TEAMPHERY
-
-![teamphery] (https://i.ibb.co/ch5WSRw/avatar.png)
-Para empezar, respondanme una pregunta ¿Quién no ha soñado desde niño mandar mensajes que solo tú y tu amigo puedan entender? Algo así como tener un código secreto, ¿Algo de locos,cierto?, pues queridos millenials y también no millenials este programa es para ustedes.
+Para empezar, respondan una pregunta ¿Quién no ha soñado desde niño mandar mensajes que solo tú y tu amigo puedan entender? Algo así como tener un código secreto, ¿Algo de locos,cierto?, pues queridos millenials y también no millenials este programa es para ustedes.
 
 ### ¿Para quienes fue creado Teamphery?
 Teamphery fue creado para ese jóven, persona,humano que quiere tener un poco más de privacidad o simplemente darle una nueva forma a comunicarse, esa persona que desea transmitir un mensaje pero no sabe como hacerlo. También para ese grupo de amigos que desea tener un código secreto y una exclusiva manera de textear.
