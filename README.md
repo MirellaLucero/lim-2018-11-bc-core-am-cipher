@@ -18,6 +18,7 @@ Phery es nuestro código y el encargado de que puedas hacer todo aquí, siempre 
 
 ### ¿Cómo uso Teamphery?
 Usar Teamphery es como sumar 2+2, es super sencillo. Aquí te enseño como:
+
 **OCULTAR**
 1. Le das la opción de ocultar si es que deseas redactar un mensaje cifrado.
 2. Ingresas el texto que desees.
