@@ -1,7 +1,4 @@
 # BIENVENIDX A TEAMPHERY
-<<<<<<< HEAD
-
-![teamphery] (https://ibb.co/8g3yLGb)
 Para empezar, respondanme una pregunta ¿Quién no ha soñado desde niño mandar mensajes que solo tú y tu amigo puedan entender? Algo así como tener un código secreto, ¿Algo de locos,cierto?, pues queridos millenials y también no millenials este programa es para ustedes.
 
 ### ¿Para quienes fue creado Teamphery?
