@@ -5,9 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 @import url('https://fonts.googleapis.com/css?family=Acme|Arvo|Noto+Sans+KR|Poppins');
 
-@media screen and (max-width=400px) {
-    background: url(fondomov.jpg);}
-
 #inicio {
   visibility: visible;
 }
