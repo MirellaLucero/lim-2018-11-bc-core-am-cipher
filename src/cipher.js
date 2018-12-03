@@ -24,10 +24,10 @@ return textEncode;
 },
 
 
-decode: (offset2,string2) => {
-  const mensaje= string2;//almacenando el valor de data en la const mensaje
-  let clave=parseInt(offset2);//almacenando el valor de key en clave
- const upperWords = string2.toUpperCase();//conviertiendo en mayúsculas
+decode: (offset,string) => {
+  const mensaje= string;//almacenando el valor de data en la const mensaje
+  let clave=parseInt(offset);//almacenando el valor de key en clave
+ const upperWords = string.toUpperCase();//conviertiendo en mayúsculas
  const alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789¡!¿?,.;-_#$%&/()=:><";//declarando abecedario
  let textDecode="";//almacen del texto desencriptado
  for(let i=0; i<upperWords.length; i++){
