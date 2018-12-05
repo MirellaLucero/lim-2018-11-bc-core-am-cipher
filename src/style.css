@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC%7CRock+Salt');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
-@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Kalam');
-@import url('https://fonts.googleapis.com/css?family=Acme|Arvo|Noto+Sans+KR|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Acme%7CArvo%7CNoto+Sans+KR%7CPoppins');
 
 #inicio {
-  visibility: visible;
+ visibility: visible;
 }
 
 #pagcifrar {
-  display: none;
+ display: none;
 }
 
 #pagdescifrar {
-  display: none;
+ display: none;
 }
 
 * {box-sizing: border-box;}
@@ -25,68 +22,69 @@ text-align: center;
 }
 
 .header {
- overflow: hidden;
- background: rgba(0,0,0,0.5);
- color: #fff;
- padding: 20px 10px;
- font-family: 'Roboto',sans-serif;
- color: #fff;
+overflow: hidden;
+background: rgba(0,0,0,0.5);
+color: #fff;
+padding: 20px 10px;
+font-family: 'Roboto',sans-serif;
+color: #fff;
 }
 
 .header a {
- float: left;
- color: black;
- padding: 12px;
- text-decoration: none;
- font-size: 18px;
- line-height: 25px;
- border-radius: 4px;
+float: left;
+color: black;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
 }
 
 .header a.logo {
- font-size: 40px;
- font-weight: bold;
- color: #fff;
+font-size: 40px;
+font-weight: bold;
+color: #fff;
 }
 
 .header a:hover {
- background-color: #ddd;
- color: black;
+background-color: #ddd;
+color: black;
 }
 
 .header a.active {
- background-color: dodgerblue;
- color: white;
+background-color: dodgerblue;
+color: white;
 }
 
 .header-right {
- float: right;
+float: right;
 }
 
 #contenido {
-  margin-top: 85px;
+ margin-top: 85px;
 }
+
 h1 {
- font-size: 50px;
- font-family: 'Poppins',sans-serif;
- font-weight: bold;
- vertical-align: inherit;
- color: white;
- text-align: center;
+font-size: 50px;
+font-family: 'Poppins',sans-serif;
+font-weight: bold;
+vertical-align: inherit;
+color: white;
+text-align: center;
 }
 
 .t2 {
- font-size: 30px;
- font-family: 'Poppins',sans-serif;
- color: white;
- text-align: center;
+font-size: 30px;
+font-family: 'Poppins',sans-serif;
+color: white;
+text-align: center;
 }
 
 p {
- font-family: 'Kalam',sans-serif;
- font-size: 20px;
- color: white;
- text-align: center;
+font-family: 'Kalam',sans-serif;
+font-size: 20px;
+color: white;
+text-align: center;
 }
 
 .btn {
@@ -107,88 +105,58 @@ cursor: pointer;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+ margin: 0;
+ padding: 0;
 }
 
 .box {
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  top:50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  box-sizing: border-box;
-  margin: auto;
-  width: 60%;
-  max-width: 500px;
-  padding: 20px;
+ background: rgba(0,0,0,0.5);
+ color: #fff;
+ top:50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ margin: auto;
+ width: 60%;
+ max-width: 500px;
+ padding: 20px;
 }
 
-.ct {
-  background: rgba(0,0,0,0.5);
-  color: #fff;
+.transparencia {
+ background: rgba(0,0,0,0.5);
+ color: #fff;
 }
-
-/*.avatar {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 65px);
-}*/
 
 h3 {
-  margin:0;
-  padding: 0 0 30px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: 'Acme', sans-serif;
-  color: white;
-  font-size: 30px;
-}
-/*
-#pagcifrar, #pagdescifrar{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  box-sizing: border-box;
-  min-height: 100vh;
+ margin:0;
+ padding: 0 0 30px;
+ text-align: center;
+ margin-bottom: 20px;
+ font-family: 'Acme', sans-serif;
+ color: white;
+ font-size: 30px;
 }
 
-form {
-  margin: auto;
-  width: 50%;
-  max-width: 500px;
-  padding: 20px;
-  border: 1px solid rgba(0,0,0,0.2);
-}
-
-
-*/
 textarea {
-  resize: vertical;
-  max-height: 300px;
-  min-height: 100px;
+ resize: vertical;
+ max-height: 300px;
+ min-height: 100px;
+ margin-bottom: 20px;
+ width: 100%;
+ padding: 10px;
+ box-sizing: border-box;
 }
 
+/*al estar el selecc color cambie*/
 textarea:hover, input:hover{
-  border: 2px solid #70c52e;
+ border: 2px solid #70c52e;
 }
 
 label {
-  font-family: 'Poppins',sans-serif;
-  font-size: 15px;
-  color: white;
-}
-
-
- textarea {
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
+ font-family: 'Poppins',sans-serif;
+ font-size: 15px;
+ color: white;
 }
 
 input {
@@ -198,8 +166,9 @@ width: 200px;
 height:30px;
 }
 
+/*botones alin*/
 #cifrar, #descifrar {
-  margin-left: 10px;
+ margin-left: 10px;
 width: 80px;
 height: 30px;
 cursor: pointer;
@@ -207,6 +176,7 @@ margin-top: 20px;
 text-align: center;
 }
 
+/*para que al pasar el mouse se torne el borde de un dif.color*/
 input:focus, textarea:focus {
 border: 2px solid #1668C4;
 }
